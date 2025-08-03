@@ -19,25 +19,20 @@ A Telegram bot that can analyze images and answer questions about them using AI 
 
 ## Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/imageinsight-bot.git
-   cd imageinsight-bot
-   ```
 
-2. **Install dependencies**
+1. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-3. **Install Ollama** (if not already installed)
+2. **Install Ollama** (if not already installed)
    ```bash
    # Follow instructions at https://ollama.ai/
    # Then pull the llava model
    ollama pull llava
    ```
 
-4. **Set up environment variables**
+3. **Set up environment variables**
    Create a `.env` file in the project root:
    ```env
    TELEGRAM_API_TOKEN=your_telegram_bot_token
